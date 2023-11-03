@@ -1,0 +1,191 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(2, 2, 27);
+}
+
+.image-container {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.oval-image {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Para colocar os botões um abaixo do outro */
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.button-container a img {
+    width: 20px; /* Ajuste o tamanho dos ícones */
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para o botão do WhatsApp (verde) */
+.btn-whatsapp {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #25D366; 
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #128C7E,
+                0px 0px 10px #25D366,
+                0px 0px 25px #25D366;
+    transition: 0.25s ease-in-out all;
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 5px #128C7E,
+                0px 0px 10px #25D366,
+                0px 0px 25px #25D366,
+                0px 0px 50px #25D366,
+                0px 0px 150px #25D366,
+                0px 0px 250px #25D366;
+}
+
+/* Estilo para o botão do Instagram (rosa) */
+.btn-instagram {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #E4405F; 
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #E1306C,
+                0px 0px 10px #E4405F,
+                0px 0px 25px #E4405F;
+    transition: 0.25s ease-in-out all;
+}
+
+.btn-instagram:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 5px #E1306C,
+                0px 0px 10px #E4405F,
+                0px 0px 25px #E4405F,
+                0px 0px 50px #E4405F,
+                0px 0px 150px #E4405F,
+                0px 0px 250px #E4405F;
+}
+
+/* Estilo para o botão do LinkedIn (azul) */
+.btn-linkedin {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #0077B5; 
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #046394,
+                0px 0px 10px #0077B5,
+                0px 0px 25px #0077B5;
+    transition: 0.25s ease-in-out all;
+}
+
+.btn-linkedin:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 5px #046394,
+                0px 0px 10px #0077B5,
+                0px 0px 25px #0077B5,
+                0px 0px 50px #0077B5,
+                0px 0px 150px #0077B5,
+                0px 0px 250px #0077B5;
+}
+
+/* Estilo para o botão do GitHub (branco) */
+.btn-github {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #FFFFFF; 
+    color: #24292E; 
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #6B7280,
+                0px 0px 10px #24292E,
+                0px 0px 25px #24292E;
+    transition: 0.25s ease-in-out all;
+}
+
+.btn-github:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 5px #6B7280,
+                0px 0px 10px #24292E,
+                0px 0px 25px #24292E,
+                0px 0px 50px #24292E,
+                0px 0px 150px #24292E,
+                0px 0px 250px #24292E;
+}
+
+/* Estilo para o botão do Gmail (amarelo) */
+.btn-gmail {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #FFD033; 
+    color: #D14836; 
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px #E1A200,
+                0px 0px 10px #D14836,
+                0px 0px 25px #D14836;
+    transition: 0.25s ease-in-out all;
+}
+
+.btn-gmail:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 5px #E1A200,
+                0px 0px 10px #D14836,
+                0px 0px 25px #D14836,
+                0px 0px 50px #D14836,
+                0px 0px 150px #D14836,
+                0px 0px 250px #D14836;
+}
